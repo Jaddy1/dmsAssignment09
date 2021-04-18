@@ -1,0 +1,94 @@
+.background-viewport{
+	justify-content: center;
+	height:65vh;
+}
+.city-div{
+	display:flex;
+	justify-content: center;
+	margin-bottom: 50px;
+	margin:10px;
+
+}
+h1 {
+	font-family: 'Luckiest Guy', cursive;
+	color: #578f5f;
+	font-size: 18pt;
+	text-transform: uppercase;
+	letter-spacing: 2pt;
+
+}
+.cities img{
+	border-radius: 50%;
+}
+
+.cities {
+	text-align: center;
+	margin:10px;
+}
+
+.cities:hover img{
+	box-shadow: 0 0 10px rgba(0, 51, 77);
+}
+
+.cities a{
+	color:black;
+	text-decoration: none;
+}
+
+
+.bottom_div{
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+.bottom-left{
+	grid-column: 1/2;
+	text-align: center;
+	margin:10px;
+}
+.bottom-left p{
+	font-size:55px;
+	line-height:10px;
+	font-family: 'Luckiest Guy', cursive;
+	color: #d45c17;
+	letter-spacing: 1.2pt;
+	-webkit-text-stroke-width: 2px;
+ 	-webkit-text-stroke-color: #eb915e;
+} 
+
+.bottom-right{
+	grid-column:4;
+	justify-content: center;
+	text-align: center;
+	margin:10px;
+	font-family: 'Luckiest Guy', cursive;
+	padding-top: 15px;
+}
+
+.bottom-right a{
+	position:relative;
+	text-decoration: none;
+	color:white;
+	font-size:60px;
+	font-family: 'Luckiest Guy', cursive;
+	-webkit-text-stroke-width: 1px;
+ 	-webkit-text-stroke-color: #e4ebf0;
+ 	border: 5px solid #5b91b0;
+	border-radius: 100px;
+	padding: 20px;	
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #89b3cc;
+	padding-top: 20px;
+
+}
+
+.bottom-right a:hover{
+	color:#d8e4ed;
+}
+
+footer{
+	text-align: center;
+	margin-top: 20px;
+
+}
